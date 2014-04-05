@@ -1,0 +1,19 @@
+body {
+	padding-top: 20px; /* ajuste para o bootstrap */
+    padding-bottom: 40px; /* ajuste para o bootstrap */
+}
+.sidebar-nav {    /* ajuste para o bootstrap */
+   padding: 9px 0;
+}
+/*
+.nav a:hover {
+	color:#fff !important;
+	text-decoration:none;
+}
+/*
+.navbar .nav li.dropdown.open > .dropdown-toggle, .navbar .nav li.dropdown.active > .dropdown-toggle, .navbar .nav li.dropdown.open.active > .dropdown-toggle
+{
+  color:#fff !important;
+  background-color: transparent;
+}
+*/

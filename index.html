@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://www.santoafonso.com/index.php -->
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+  <meta charset="iso-8859-1">
+  <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta name="robots" content="index, follow">
+  <meta name="keywords" content="">
+  <meta name="title" content="">
+  <meta name="description" content="">
+  <title>Paróquia Santo Afonso</title>
+  <!-- ////////////////////////////////// -->
+  <!-- //          Stylesheets         // -->
+  <!-- ////////////////////////////////// -->
+  <link href="./index_files/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/ajust.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/bootstrap-responsive.css" rel="stylesheet" type="text/css">
+  <link href="./index_files/sitecolors.css" rel="stylesheet" type="text/css">
+  <link href="http://www.santoafonso.com/css/favicon.ico" rel="shortcut icon">
+  <!-- ////////////////////////////////// -->
+  <!-- //            Less              // -->
+  <!-- ////////////////////////////////// -->
+
+  <!-- ////////////////////////////////// -->
+  <!-- //      Javascript Files        // -->
+  <!-- ////////////////////////////////// -->
+  <script type="text/javascript" async="" src="./index_files/ga.js"></script>
+  <script src="./index_files/jquery.js"></script>
+  <style type="text/css"></style>
+  <script src="./index_files/formata.js" type="text/javascript"></script>
+  <script src="./index_files/jquery.dotdotdot.js" type="text/javascript"></script>
+  <script src="./index_files/jquery.columnizer.js" type="text/javascript"></script>
+  <script src="./index_files/glDatePicker.js" type="text/javascript"></script>
+  <link href="./index_files/date.css" rel="stylesheet" type="text/css">
+  <script>
+          $(function(){  
+            $(".cmsds").dotdotdot({
+              height   : 75
+            });
+            $(".dsnot").dotdotdot({
+              height   : 80
+            });
+            $(".destaqueds").dotdotdot({
+              height   : 20
+            });
+          });
+  </script>
+  <script src="./index_files/jquery.fancybox.js"></script>
+  <link rel="stylesheet" type="text/css" href="./index_files/jquery.fancybox.css" media="screen">
+  <script>
+    $(function() {
+       /* $("a.pop").fancybox(); */
+      
+      $("a.pop").fancybox({
+        prevEffect  : 'fade',
+        nextEffect  : 'fade'
+      });
+      
+    });
+  </script>
+  <!-- 
+  <script src="js/fancy/jquery.fancybox.js?v=2.1.0"></script>
+<link rel="stylesheet" type="text/css" href="js/fancy/jquery.fancybox.css?v=2.1.0" media="screen">
+<script>$(function() {$("a.pop").fancybox(); });</script>
+-->
+</head>
+<body id="bode">
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-42807872-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<div class="container">
+  <div class="row">
+    <div class="span3" id="divlogo">
+      <a href="./index_files/index.html">
+        <img src="./index_files/logo.png"></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span9 pull-right" id="divmenu">
+      <div class="navbar">
+        <div class="navbar-inner">
+          <div class="container">
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+              Menu
+              <!--<span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            -->
+          </a>
+          <!-- <a class="brand" href="#"></a>
+        -->
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+          <ul class="nav pull-right">
+            <li class="dropdown">
+              <a href="http://www.santoafonso.com/index.php#" class="dropdown-toggle" data-toggle="dropdown">
+                A paróquia <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=17">Histórico</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="http://www.santoafonso.com/index.php?PG=santoafonso">Santo Afonso</a>
+                </li>
+                <li>
+                  <a href="http://www.santoafonso.com/index.php?PG=santoagostinho">Santo Agostinho</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="http://www.santoafonso.com/index.php?PG=colaboradores">Colaboradores</a>
+                </li>
+                <!--                          <li>
+                <a href="?PG=sitescatolicos">Sites Católicos</a>
+              </li>
+              -->
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="http://www.santoafonso.com/index.php#" class="dropdown-toggle" data-toggle="dropdown">
+              Párocos <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=19">Mons. Lucas</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=20">Pe. Ranyer</a>
+              </li>
+              <li class="divider"></li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=21">Mons. José Penha Filho</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=22">Dom Francisco Canindé Palhano</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="http://www.santoafonso.com/index.php#" class="dropdown-toggle" data-toggle="dropdown">
+              Movimentos e serviços
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=16">Grupo de Jovens Santo Agostinho</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=18">Oficina de Oração e Vida</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=42">Caravana Amor Fraterno</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=43">Adoradores de Santana</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=44">Coral Infantil</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=45">Grupo de Oração Nossa Senhora do Perpétuo Socorro</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=46">Legião de Maria</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="http://www.santoafonso.com/index.php#" class="dropdown-toggle" data-toggle="dropdown">
+              Pastorais
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=30">Pastoral da Acolhida</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=29">Pastoral Familiar</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=31">
+                  Pastoral Litúrgica (Leitorado, Sacristia, Acólitos, Ministros Extraordinários e Ministério de Música)
+                </a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=32">Pastoral do Batismo</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=33">Pastoral da Catequese</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=34">Pastoral da Crisma</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=35">Pastoral Vocacional</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=36">Pastoral Missionária da Boa Vizinhança</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=37">Pastoral da Saúde</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=38">Pastoral do Dízimo</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=39">Pastoral de Eventos</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=40">Pastoral da Terceira Idade</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=41">Pastoral da Comunicação</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=53">Pastoral do Bem Estar</a>
+              </li>
+              <li>
+                <a href="http://www.santoafonso.com/index.php?PG=detalhacms&cod_cms=219">Torne-se Dizimista hoje mesmo!</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="http://www.santoafonso.com/index.php?PG=contato">Contato</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.nav-collapse --> </div>
+  </div>
+  <!-- /navbar-inner -->
+</div>
+<!-- /navbar -->
+
+</div>
+</div>
+</div>
+
+<div class="banner">
+<div class="container">
+<!--
+    <h1>Bootstrap</h1>
+<p>
+Sleek, intuitive, and powerful front-end framework for faster and easier web development.
+</p>
+<p>
+<a href="assets/bootstrap.zip" class="btn btn-primary btn-large" onclick="_gaq.push(['_trackEvent', 'Jumbotron actions', 'Download', 'Download 2.2.1']);">Download Bootstrap</a>
+</p>
+-->
+</div>
+</div>
+<div class="container">
+<div id="conteudo" class="row">
+<div class="span8">
+
+<div class="row">
+<div class="span4">
+
+  <h3>Notícias</h3>
+  <div class="img-polaroid">
+    <div id="cropeve">
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=233">
+        <img src="./index_files/135324842c2a77d6daecd579e617e930.IMG_2795.JPG"></a>
+    </div>
+  </div>
+  <div class="caption">
+    <h4>
+      <span class="label label-important">02/04/2014</span>
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=233">III Pós Encontro do ECC (10/04)</a>
+    </h4>
+    <div class="cmsds">
+      <p></p>
+      <p>
+        O terceiro Pós Encontro do ECC de nossa paróquia acontecerá no dia 1
+        <b>0/04</b>
+        na Igreja Matriz de Santo Afonso Maria de Ligório, a partir das 20 horas.
+        <br>O pós iniciará com um louvor e terá a presença de Sandro...</p>
+    </div>
+    <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=233" class="pull-right">
+      <span class="label label-inverse">+ mais</span>
+    </a>
+    <div class="clearfix"></div>
+
+    <h4>Ver as últimas notícias</h4>
+    <div class="table_not textosanto dsnot" id="segunda_noticia">
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=232">
+        <img src="./index_files/27264d4b023b69a176c19c5880ac93a0.papa francisco sinodo da familia.JPG" width="150" heigth="112" class="pull-left img-polaroid rmargim"></a>
+      <span class="data_not">01/04/2014</span>
+      <br>
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=232">Sínodo sobre a família acontecerá em Outubro/14</a>
+
+      <p></p>
+      <p>
+        <b style="line-height: 1.45em;">Cidade do Vaticano (RV)</b>
+        <span style="line-height: 1.45em;">&nbsp;– “Os desafios pastorais sobre a família no...</span>
+      </p>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+    <div class="table_not textosanto dsnot" id="segunda_noticia">
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=230">
+        <img src="./index_files/9bbb03e10c3dd85da7d0a42c4dcc3fa7.S.Afonso Palestra Noe (30).jpg" width="150" heigth="112" class="pull-left img-polaroid rmargim"></a>
+      <span class="data_not">28/03/2014</span>
+      <br>
+      <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=230">
+        Palestra sobre a Campanha da Fraternidade reuni paroquianos do II Zonal
+      </a>
+
+      <p></p>
+      <p>
+        Na quarta-feira dia 26/03 (quarta-feira) aconteceu no Centro Pastoral de Sto...
+      </p>
+    </div>
+    <div class="clearfix"></div>
+    <br>
+
+    <table class="table table_not">
+      <tbody>
+        <tr>
+          <td class="data_not">24/03/2014</td>
+          <td width="100%">
+            <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=229">Escola Bíblica São Jerônimo iniciou as atividades 2014</a>
+          </td>
+        </tr>
+        <tr>
+          <td class="data_not">11/03/2014</td>
+          <td width="100%">
+            <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=226">
+              Assembleia Pastoral Paroquial - DIA 09/03 (Domingo às 09 horas)
+            </a>
+          </td>
+        </tr>
+        <tr>
+          <td class="data_not">10/03/2014</td>
+          <td width="100%">
+            <a href="http://www.santoafonso.com/index.php?PG=noticias&cod_cms=227">
+              Formação de Missionários acontece em nossa paróquia (11 e 12/3)
+            </a>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="http://www.santoafonso.com/index.php?PG=todasnoticias" class="pull-right">
+      <span class="label label-inverse">Ver todas</span>
+    </a>
+  </div>
+
+</div>
+<div class="span4">
+
+  <h3>Eventos</h3>
+  <div class="img-polaroid">
+    <div id="cropeve">
+      <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=231">
+        <img src="./index_files/35da6ac2ce9dec05539dec7419f9da94.semana santa.jpg"></a>
+    </div>
+  </div>
+  <div class="caption">
+    <h4>
+      <!-- <span class="label label-important">02/04/2014</span>
+    -->
+    <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=231">Programação da Semana Santa 2014</a>
+  </h4>
+  <div class="cmsds">
+    <p></p>
+    <p></p>
+    <p>
+      <b style="line-height: 1.45em;">13/4 – Domingo de Ramos</b>
+      <span style="line-height: 1.45em;">
+        (Coleta
+da Solidariedade – CF2014)
+      </span>
+      <br></p>
+    <p>
+      <span style="line-height: 1.45em;">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Trazer ramos ou flores
+        <br></span>
+      <b style="line-height: 1.45em;"></b>
+    </p>
+  </div>
+  <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=231" class="pull-right">
+    <span class="label label-inverse">+ mais</span>
+  </a>
+  <div class="clearfix"></div>
+
+  <h4>Ver os últimos eventos</h4>
+  <div class="table_not textosanto dsnot" id="segunda_noticia">
+    <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=234">
+      <img src="./index_files/befdb5358ada2ee13e6811df33d62fe8.IMG_2808.JPG" width="150" heigth="112" class="pull-left img-polaroid rmargim"></a>
+    <span class="data_not">31/03/2014</span>
+    <br>
+    <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=234">III Pós Encontro do SEGUE-ME (06/04)</a>
+
+    <p></p>
+    <p>
+      Jovens do Segue-Me de nossa paróquia estão convidados a comparecerem...
+    </p>
+  </div>
+  <div class="clearfix"></div>
+  <br>
+  <div class="table_not textosanto dsnot" id="segunda_noticia">
+    <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=228">
+      <img src="./index_files/c3d4f7cb6aac05a3ae6921939361f622.ECC.jpg" width="150" heigth="112" class="pull-left img-polaroid rmargim"></a>
+    <span class="data_not">24/03/2014</span>
+    <br>
+    <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=228">
+      Pré-Inscrições para o XXIX ECC - Encontro de Casais com Cristo estão abertas
+    </a>
+
+    <p></p>
+    <p>
+      <span style="line-height: 1.45em;"></span>
+    </p>
+  </div>
+  <div class="clearfix"></div>
+  <br>
+
+  <table class="table table_not">
+    <tbody>
+      <tr>
+        <td class="data_not">14/03/2014</td>
+        <td width="100%">
+          <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=225">2º Pós Encontro do ECC 2014 - Testemunho de Vida (dia 13/03)</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="data_not">06/03/2014</td>
+        <td width="100%">
+          <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=224">CINE PASCOM - Todas as Quintas-Feiras no Centro Pastoral</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="data_not">02/02/2014</td>
+        <td width="100%">
+          <a href="http://www.santoafonso.com/index.php?PG=eventos&cod_cms=212">Dom Canindé comemora 39 anos de sacerdócio em nossa paróquia</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <a href="http://www.santoafonso.com/index.php?PG=todoseventos" class="pull-right">
+    <span class="label label-inverse">Ver todos</span>
+  </a>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="span4">
+<!-- Horario das missas -->
+
+<h3>Horário das missas</h3>
+<h4>Igreja Santo Afonso</h4>
+<table class="table table-condensed" id="table_missas">
+<tbody>
+<tr>
+  <td nowrap="">Segunda a Sexta</td>
+  <td style="text-align: right;">19h</td>
+</tr>
+<tr>
+  <td>Domingo</td>
+  <td style="text-align: right;">8h - 19h</td>
+</tr>
+</tbody>
+</table>
+<h4>Igreja Santo Agostinho</h4>
+<table class="table table-condensed">
+<tbody>
+<tr>
+  <td nowrap="">Segunda a Sexta</td>
+  <td style="text-align: right;">17h30</td>
+</tr>
+<tr>
+  <td>Sábado</td>
+  <td style="text-align: right;">19h30</td>
+</tr>
+<tr>
+  <td>Domingo</td>
+  <td style="text-align: right;">17h30</td>
+</tr>
+</tbody>
+</table>
+<h4>Capela do Campus</h4>
+<table class="table table-condensed">
+<tbody>
+<tr>
+  <td nowrap="">Domingo</td>
+  <td style="text-align: right;">7h30 - 18h30 - 20h</td>
+</tr>
+</tbody>
+</table>
+<!-- Santo do dia -->
+
+<div class="clearfix"></div>
+<h3>Santos do dia</h3>
+
+<img src="./index_files/a9e25a817de0c255cfbf8c87a5ea1469.VICENTE FERRER.jpg" class="img-polaroid pull-left rmargim" width="112">
+<h4>São Vicente Ferrer - 05/04</h4>
+<div id="dot_santo1" class="textosanto">
+<p>
+Vicente nasceu em Valência, na Espanha, em 1350. Passou a infância e a juve
+</p>
+</div>
+<a href="http://www.santoafonso.com/index.php?PG=detalhasanto&cod_santo=155" class="pull-right" id="more_santo1">ler mais</a>
+<div class="clearfix">
+<br>
+<br></div>
+<script>
+        /*
+          $(function(){  
+            $("#dot_santo1").dotdotdot({
+              height   : 75
+            });
+            $("#more_santo1").click(function() {
+                $("#dot_santo1").trigger("destroy");
+                $(this).addClass("noshow"); 
+            });
+
+          });
+         */
+        </script>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<div id="botsite">
+<div class="container">
+<div class="row">
+<div id="menubot" class="span8">
+<!--class="span8"-->
+<ul>
+<li>
+  <a href="./index_files/index.html">Home</a>
+</li>
+<li>
+  <a href="http://www.santoafonso.com/index.php?PG=santoafonso">Santo Afonso</a>
+</li>
+<li>
+  <a href="http://www.santoafonso.com/index.php?PG=santoagostinho">Santo Agostinho</a>
+</li>
+<li>
+  <a href="http://www.santoafonso.com/index.php?PG=colaboradores">Colaboradores</a>
+</li>
+<li>
+  <a href="http://www.santoafonso.com/index.php?PG=sitescatolicos">Sites Católicos</a>
+</li>
+<li>
+  <a href="http://www.santoafonso.com/index.php?PG=contato">Contato</a>
+</li>
+</ul>
+<p>© Paróquia Santo Afonso 2012</p>
+<br>
+<a>
+<img src="./index_files/facebook_icon.png" width="32" heigth="32">&nbsp;&nbsp;facebook.com/santoafonso</a>
+<br>
+<br></div>
+<div id="botadd" class="span4">
+<!--class="span3"-->
+<address>
+Paróquia Santo Afonso
+<br>
+Av. Santos Dumont, S/N, Mirassol, Natal-RN  afonsinforme@gmail.com
+<br> <abbr title="Phone">Tel:</abbr>
+84 3615-2855
+<br>April 5, 2014, 5:16 am</address>
+<address>
+<br>
+<a href="mailto:afonsinforme@gmail.com">afonsinforme@gmail.com</a>
+</address>
+
+</div>
+</div>
+</div>
+<!-- container -->
+</div>
+
+<script src="./index_files/bootstrap-alert.js"></script>
+<script src="./index_files/bootstrap-collapse.js"></script>
+<script src="./index_files/bootstrap-transition.js"></script>
+<script src="./index_files/bootstrap-modal.js"></script>
+<script src="./index_files/bootstrap-dropdown.js"></script>
+<script src="./index_files/bootstrap-scrollspy.js"></script>
+<script src="./index_files/bootstrap-tab.js"></script>
+<script src="./index_files/bootstrap-tooltip.js"></script>
+<script src="./index_files/bootstrap-popover.js"></script>
+<script src="./index_files/bootstrap-button.js"></script>
+<script src="./index_files/bootstrap-carousel.js"></script>
+<script src="./index_files/bootstrap-typeahead.js"></script>
+
+</body>
+</html>
